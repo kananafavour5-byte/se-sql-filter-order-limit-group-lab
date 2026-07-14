@@ -88,8 +88,6 @@ ORDER BY age DESC
 LIMIT 4;
 """, conn2)
 
-# Sort alphabetically by breed
-df_4_oldest = df_4_oldest.sort_values(by="breed").reset_index(drop=True)
 
 ##### Part 4: Aggregation #####
 
